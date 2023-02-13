@@ -1,1 +1,2 @@
-export const schemaTypes = []
+import restaurant from './restaurant'
+export const schemaTypes = [restaurant]
