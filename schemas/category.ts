@@ -1,5 +1,5 @@
 export default {
-  name: 'catergory',
+  name: 'category',
   title: 'Menu Category',
   type: 'document',
   fields: [
