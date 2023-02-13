@@ -41,7 +41,7 @@ export default {
       type: 'number',
       title: 'Enter a Rating from (1-5 Stars)',
       validation: (Rule: any) =>
-        Rule.required().min(1).max(1).error('Please enter a Value between 1 and 5'),
+        Rule.required().min(1).max(5).error('Please enter a Value between 1 and 5'),
     },
     {
       name: 'type',
@@ -58,3 +58,10 @@ export default {
     },
   ],
 }
+
+// Wagamama
+// Yo! Suchi
+// Five Guys
+// Subway
+// KFC
+// Nando's
